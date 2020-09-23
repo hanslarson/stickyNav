@@ -1,0 +1,15 @@
+/* desktop */
+
+div.navShadow {
+  display: none;
+  height: 60px; /* this is the actual height of the nav */
+}
+nav.ce-sticky-nav + div {
+  display: block;
+}
+
+/* mobile */
+
+div.navShadow {
+  height: 16.269vw; /* this is the actual height of the nav */
+}
